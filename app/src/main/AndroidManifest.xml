@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.happy.bluetooth">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/motor2"
+        android:label="Smartkey TA"
+        android:roundIcon="@mipmap/motor2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ledControl" />
+        <activity android:name=".editing" />
+        <activity android:name=".dmact" />
+        <activity android:name=".adding">
+
+        </activity>
+
+        <activity
+            android:name=".setting"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+
+        <activity android:name=".deleting">
+
+        </activity>
+    </application>
+
+</manifest>

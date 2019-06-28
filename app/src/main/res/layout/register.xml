@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tambahakun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah akun"
+        android:textSize="26dp"/>
+
+    <EditText
+        android:id="@+id/tambahID"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tambahakun"
+        android:hint="Insert your ID" />
+
+    <EditText
+        android:id="@+id/tambahPIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tambahID"
+        android:hint="Insert your PIN" />
+
+    <Button
+        android:id="@+id/tambahkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="SUBMIT" />
+
+</RelativeLayout>
